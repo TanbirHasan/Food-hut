@@ -1,0 +1,166 @@
+ [
+  {
+  "  id": "1",
+    "name": "Baggel and Cream Chease",
+    "category": "breakfast",
+    "title": " How we dream about our future",
+    "price": "6.99",
+    "img": "Images/breakfast1.png"
+  },
+  {
+    "id": "2",
+    "name": "Sandwich",
+    "category": "breakfast",
+    "title": "How we dream about our future",
+    "price": "8.34",
+    "img": "Images/breakfast2.png"
+  },
+  {
+    "id": "3",
+    "name": "Baked Chicken",
+    "category": "breakfast",
+    "title": "How we dream about our future",
+    "price": "10.56",
+    "img": "Images/breakfast3.png"
+  },
+  {
+    "id": "4",
+    "name": "Eggs Bandit",
+    "category": "breakfast",
+    "title": "How we dream about our future",
+    "price": "12.56$",
+    "img": "Images/breakfast4.png"
+  },
+  {
+    "id": "5",
+    "name": "Toast crossiant Fried Egg",
+    "category": "breakfast",
+    "title": "How we dream about our future",
+    "price": "10.34",
+    "img": "Images/breakfast5.png"
+  },
+  {
+    "id": "6",
+    "name": "Fried Egg Toast Brunch",
+    "category": "breakfast",
+    "title": "How we dream about our future",
+    "price": "14.56",
+    "img": "Images/breakfast6.png"
+  },
+  {
+    "id": "7",
+    "name": "Salmon with graph fruit and latin salad",
+    "category": "dinner",
+    "title": "How we dream about our future",
+    "price": "9.99",
+    "img": "Images/dinner1.png"
+  },
+  {
+    "id": "8",
+    "name": "Lamony salmon piccata",
+    "category": "dinner",
+    "title": "How we dream about our future ",
+    "price": "10.99",
+    "img": "Images/dinner2.png"
+  },
+  {
+    "id": "9",
+    "name": "Pork tenderlion",
+    "category": "dinner",
+    "title": "How we dream about our future",
+    "price": "12.56",
+    "img": "Images/dinner3.png"
+  },
+
+  {
+    "id": "10",
+    "name": "French Fries With Cheese",
+    "category": "dinner",
+    "title": "How we dream about our future",
+    "price": "9.56",
+    "img": "./Images/dinner4.png"
+  },
+  {
+    "id": "11",
+    "name": "Garlic butter with fish",
+    "category": "dinner",
+    "title": "How we dream about our future",
+    "price": "24.56",
+    "img": "./Images/dinner5.png"
+  },
+  {
+    "id": "12",
+    "name": "Baked Chicken",
+    "category": "dinner",
+    "title": "How we dream about our future",
+    "price": "9.99",
+    "img": "./Images/dinner6.png"
+  },
+  {
+    "id": "13",
+    "name": "Healthy meal plan",
+    "category": "lunch",
+    "title": "How we dream about our future",
+    "price": "24.99",
+    "img": "./Images/lunch1.png"
+  },
+  {
+    "id": "14",
+    "name": "Chicken Fried Bento",
+    "category": "lunch",
+    "title": "How we dream about our future",
+    "price": "9.56",
+    "img": "./Images/lunch1.png"
+  },
+
+  {
+    "id": "15",
+    "name": "Tarragon-Rubbed-Salmon",
+    "category": "lunch",
+    "title": "How we dream about our future",
+    "price": "12.34",
+    "img": "./Images/lunch3.png"
+  },
+  {
+    "id": "16",
+    "name": "Mixed-Rice-Puri-Lunch",
+    "category": "lunch",
+    "title": "How we dream about our future",
+    "price": "17.34",
+    "img": "./Images/lunch4.png"
+  },
+  {
+    "id": "17",
+    "name": "Beef Buf",
+    "category": "lunch",
+    "title": "How we dream about our future",
+    "price": "28.34",
+    "img": "./Images/lunch5.png"
+  },
+  {
+    "id": "18",
+    "name": "Honey soy-glazed Salmon",
+    "category": "lunch",
+    "title": "How we dream about our future",
+    "price": "12.56",
+    "img": "./Images/lunch6.png"
+  },
+  {
+    "id": "19",
+    "name": "Pasta de melio",
+    "category": "lunch",
+    "title": "How we dream about our future",
+    "price": "34.56",
+    "img": "./Images/dinner4.png"
+  },
+  {
+    "id": "20",
+    "name": "Fried chick garlic",
+    "category": "lunch",
+    "title": "How we dream about our future",
+    "price": "34.56",
+    "img": "./Images/lunch6.png"
+  }
+]
+
+
