@@ -1,5 +1,8 @@
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import auth from '../firebase.init';
 
 
 const Container = styled.div`
@@ -53,6 +56,8 @@ const Button = styled.button`
  `;
 
 const Footer = () => {
+
+  const [user] = useAuthState(auth);
     return (
         <Container>
             <Left>
@@ -75,7 +80,11 @@ const Footer = () => {
                       <Icon><i class="fa-brands fa-instagram"></i></Icon>
                        <Icon><i class="fa-brands fa-google-plus-square"></i></Icon>
                       <Paragraph>Sign up and get exclusive offer and coupon codes</Paragraph> 
-                      <Button>Sign Up</Button>
+                      {
+                        user ? <Button>Sign Out</Button> :    <Link to="/register" className='link'>  <Button>Sign Up</Button></Link>
+                      }
+                   
+                    
                 </SocialMedia>
             </Right>
             

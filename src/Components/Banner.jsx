@@ -43,8 +43,8 @@ const Banner = () => {
                 <Carousel.Item>
                       <Container>
                       <Left>
-                          <Name>Green Delight</Name>
-                          <Title>Vegitable Pizza</Title>
+                          <Name>Truley Italian</Name>
+                          <Title>Pepparoni pizza with thin churst</Title>
                           <Desc>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, fugit?</Desc>
                       </Left>
                       <Right>
@@ -56,8 +56,8 @@ const Banner = () => {
                 <Carousel.Item>
                       <Container>
                       <Left>
-                          <Name>Green Delight</Name>
-                          <Title>Vegitable Pizza</Title>
+                          <Name>Chessy Burger</Name>
+                          <Title>Ham & Chesse with Vegetables</Title>
                           <Desc>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, fugit?</Desc>
                       </Left>
                       <Right>

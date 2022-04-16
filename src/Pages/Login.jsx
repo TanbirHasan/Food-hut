@@ -1,7 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useRef } from 'react';
+import { useAuthState, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import Navbar from '../Components/Navbar';
+import auth from '../firebase.init';
 
 
 
@@ -34,15 +36,51 @@ const Button = styled.button`
 
 const Text = styled.span``;
 const Login = () => {
+
+  const [
+  signInWithEmailAndPassword,
+  user,
+  loading,
+  error,
+] = useSignInWithEmailAndPassword(auth);
+
+
+const emailref = useRef();
+const passref = useRef(); 
+
+  const location = useLocation();
+  const navigate = useNavigate();
+
+
+   let from = location.state?.from?.pathname || "/";
+
+
+  if(user){
+     navigate(from, { replace: true });
+  }
+
+
+  const handleSubmit = (e) => {
+
+
+    e.preventDefault();
+    const email = emailref.current.value;
+    const password = passref.current.value;
+
+    signInWithEmailAndPassword(email,password);
+
+
+  }
+   
     return (
          <Container>
             <Navbar/>
             <Wrapper>
-                <Form> 
+                <Form onSubmit={handleSubmit}> 
                    
-                     <Input placeholder="Enter your Email" type="email" required/>
-                      <Input placeholder="Enter your Password" type="password" required/>
-                      <Button>Login</Button>
+                     <Input placeholder="Enter your Email" type="email" ref={emailref} required/>
+                      <Input placeholder="Enter your Password" type="password" ref={passref} required/>
+                      <Button type="submit">Login</Button>
                       <Text>New to Food hut?<Link to="/register" className='link'>Register</Link></Text>
                 </Form>
             </Wrapper>

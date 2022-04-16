@@ -50,7 +50,9 @@ const Navbar = () => {
                 <MenuItem>
                  <Link to="/" className='link'> <Item>Home</Item></Link>
                  <Link to="/foodmenu" className='link'> <Item>FoodMenu</Item></Link>
-                 <Link to="/aboutus" className='link'>   <Item>About Us</Item></Link>
+                 <Link to="/aboutus" className='link'><Item>About Us</Item></Link>
+                 <Link to="/cart" className='link'>   <Item>Cart</Item><i class="fa-solid fa-cart-shopping"></i></Link>
+
                  {
                    user ? <Item onClick={() => signOut(auth)}>Logout</Item> : <Link to="/login" className='link'>  <Item>Login</Item></Link>
                  }
