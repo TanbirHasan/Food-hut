@@ -1,0 +1,24 @@
+ [
+  {
+    "id": "1",
+    "title": "Do we offer reservation?",
+    "info": "Of course we offer reservation,You can conact us and reserve for any program like Birthday party, Wedding etc"
+  },
+  {
+    "id": "2",
+    "title": "Do we offer online delivery?",
+    "info": "No we don't have online system, Currently we are working on that"
+  },
+  {
+    "id": "3",
+    "title": "What payment system we have?",
+    "info": "We have credit card system,Mobile banking and cash exchange system."
+  },
+  {
+    "id": "4",
+    "title": "What is opening time of the restaurent",
+    "info": "We are available from 7am"
+  }
+  
+]
+

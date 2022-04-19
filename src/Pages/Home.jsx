@@ -2,17 +2,23 @@ import React from 'react';
 import Banner from '../Components/Banner';
 import FirstArticle from '../Components/FirstArticle';
 import Footer from '../Components/Footer';
-import Navbar from '../Components/Navbar';
+import Header from '../Components/Navbar';
+import Middlesection from "../Components/Middlesection";
+
 import RandomMeal from '../Components/RandomMeal';
+import Questions from '../Components/Questions';
 
 const Home = () => {
     return (
         <div>
-              <Navbar/>
+             
                 <Banner/>
                 <FirstArticle/>
                 <RandomMeal/>
-                <Footer/>
+                <Middlesection/>
+                <Questions/>
+            
+             
                         
         </div>
     );

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import {Card,Button} from 'react-bootstrap'
-import Navbar from '../Components/Navbar';
+
 import useFoods from '../Hooks/useFoods';
 import { addToDb, getStoredCart } from '../utilities/fakedb';
 import Foodetails from './Fooddetails';
@@ -73,7 +73,7 @@ const FoodMenu = () => {
     return (
         <Container>
         
-            <Navbar/>
+           
             <Title>Choose Your Best Meal</Title>
             <Wrapper>
                 {
@@ -84,7 +84,7 @@ const FoodMenu = () => {
 
            </Wrapper>
 
-           <Footer/>
+          
           
             
         </Container>

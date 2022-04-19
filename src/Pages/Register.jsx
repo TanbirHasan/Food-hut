@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import Navbar from '../Components/Navbar';
+
 import { GoogleAuthProvider } from "firebase/auth";
 import {Button ,Form} from 'react-bootstrap'
 import { useCreateUserWithEmailAndPassword, useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
@@ -85,7 +85,7 @@ const Register = () => {
   
     return (
         <Container>
-            <Navbar/>
+            
             <Wrapper>
                  <Button className="text-white" style={{color:"white", margin:"20px 0px"}} onClick={() => signInWithGoogle()}><i className="fa-brands fa-google" style={{marginRight:"5px",fontSize:"18px"}}></i>Google Sign In</Button>
                   <Button className="text-white" style={{color:"white", margin:"10px 0px",background:"black",borderColor:"black"}}

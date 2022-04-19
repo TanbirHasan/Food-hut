@@ -1,6 +1,6 @@
 import React from 'react';
 import styledComponents from 'styled-components';
-import Navbar from '../Components/Navbar';
+
 import useCart from '../Hooks/useCart';
 import Choosemeal from "../Components/Choosemeal"
 import Footer from '../Components/Footer';
@@ -58,7 +58,7 @@ const Cart = () => {
     const grandTotal = total + shipping + tax;
     return (
         <Container>
-             <Navbar/>
+      
             <Wrapper>
                     <h4>Order Summary</h4>
                     <p>Selected Items: {quantity}</p>
@@ -69,7 +69,7 @@ const Cart = () => {
                     <Button>Proceed to Checkout</Button>
 
             </Wrapper>
-           <Footer/>
+         
             
            
        

@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from 'styled-components';
 import {Card,Button} from 'react-bootstrap'
-import Navbar from '../Components/Navbar';
+
 import useFoods from '../Hooks/useFoods';
 
 

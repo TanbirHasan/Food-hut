@@ -9,10 +9,13 @@ import Login from './Pages/Login';
 import RequireAuth from './Components/RequireAuth/RequireAuth';
 import Cart from './Pages/Cart';
 import AboutUs from './Pages/AboutUs';
+import Header from './Components/Navbar';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/foodmenu" element={<FoodMenu />}></Route>
@@ -28,6 +31,7 @@ function App() {
         ></Route>
         <Route path="/aboutus" element={<AboutUs/>}></Route>
       </Routes>
+      <Footer/>
     </div>
   );
 }

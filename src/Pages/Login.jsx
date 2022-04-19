@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { useAuthState, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
-import Navbar from '../Components/Navbar';
+
 import auth from '../firebase.init';
 
 
@@ -74,7 +74,7 @@ const passref = useRef();
    
     return (
          <Container>
-            <Navbar/>
+           
             <Wrapper>
                 <Form onSubmit={handleSubmit}> 
                    

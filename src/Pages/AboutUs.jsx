@@ -1,6 +1,6 @@
 import React from 'react';
 import styledComponents from 'styled-components';
-import Navbar from '../Components/Navbar';
+
 
 
 
@@ -34,7 +34,7 @@ const Desc = styledComponents.p``;
 const AboutUs = () => {
     return (
         <div>
-            <Navbar/>
+        
             <Wrapper>
                 <Image src="https://images.pexels.com/photos/8753556/pexels-photo-8753556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
                 <TextContainer>
