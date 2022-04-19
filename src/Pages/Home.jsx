@@ -7,15 +7,19 @@ import Middlesection from "../Components/Middlesection";
 
 import RandomMeal from '../Components/RandomMeal';
 import Questions from '../Components/Questions';
+import MenuList from '../Components/MenuList';
+import PageTitle from '../Components/PageTitle';
 
 const Home = () => {
     return (
         <div>
+            <PageTitle title="Home"></PageTitle>
              
                 <Banner/>
                 <FirstArticle/>
                 <RandomMeal/>
                 <Middlesection/>
+                <MenuList/>
                 <Questions/>
             
              

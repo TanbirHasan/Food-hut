@@ -6,6 +6,7 @@ import useFoods from '../Hooks/useFoods';
 import { addToDb, getStoredCart } from '../utilities/fakedb';
 import Foodetails from './Fooddetails';
 import Footer from '../Components/Footer';
+import PageTitle from '../Components/PageTitle';
 
 
 const Container = styled.div`
@@ -72,6 +73,7 @@ const FoodMenu = () => {
 
     return (
         <Container>
+            <PageTitle title="FoodMenu"></PageTitle>
         
            
             <Title>Choose Your Best Meal</Title>

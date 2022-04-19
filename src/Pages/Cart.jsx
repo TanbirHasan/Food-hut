@@ -4,6 +4,7 @@ import styledComponents from 'styled-components';
 import useCart from '../Hooks/useCart';
 import Choosemeal from "../Components/Choosemeal"
 import Footer from '../Components/Footer';
+import PageTitle from '../Components/PageTitle';
 
 
 
@@ -58,6 +59,7 @@ const Cart = () => {
     const grandTotal = total + shipping + tax;
     return (
         <Container>
+              <PageTitle title="Cart"></PageTitle>
       
             <Wrapper>
                     <h4>Order Summary</h4>

@@ -254,3 +254,70 @@ main {
     align-self: center;
     min-width: 2rem;
 }
+
+
+/* style for menu list */
+
+
+.Menulist{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+ 
+}
+.Menulist .Title{
+  
+    width: 80%;
+}
+.top-title{
+    text-align: center;
+
+}
+.Menulist .left{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 33%;
+    padding: 15px;
+    border: 0.5px gray solid;
+}
+
+.Menulist .left .inner-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Menulist .middle {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 33%;
+    padding: 15px;
+    border: 0.5px gray solid;
+}
+
+.Menulist .middle .inner-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.Menulist .right {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 33%;
+    border: 0.5px gray solid;
+    padding: 15px;
+}
+
+.Menulist .right .inner-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,11 +1,12 @@
 import React, { useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
 import { GoogleAuthProvider } from "firebase/auth";
 import {Button ,Form} from 'react-bootstrap'
 import { useCreateUserWithEmailAndPassword, useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../firebase.init';
+import PageTitle from '../Components/PageTitle';
 
 
 
@@ -51,6 +52,9 @@ const Hr = styled.hr`
 const Text = styled.span``;
 
 const Register = () => {
+
+
+  const navigate = useNavigate()
    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const [signInWithGithub] = useSignInWithGithub(auth);
 
@@ -65,6 +69,11 @@ const Register = () => {
    const emailref = useRef(" ");
    const passref = useRef(" ");
 
+
+   if(user){
+     navigate("/");
+
+   }
    const handleSubmit = (e) => {
 
      e.preventDefault();
@@ -85,6 +94,7 @@ const Register = () => {
   
     return (
         <Container>
+          <PageTitle title="Register"></PageTitle>
             
             <Wrapper>
                  <Button className="text-white" style={{color:"white", margin:"20px 0px"}} onClick={() => signInWithGoogle()}><i className="fa-brands fa-google" style={{marginRight:"5px",fontSize:"18px"}}></i>Google Sign In</Button>

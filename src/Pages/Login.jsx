@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { useAuthState, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
+import PageTitle from '../Components/PageTitle';
 
 import auth from '../firebase.init';
 
@@ -74,6 +75,7 @@ const passref = useRef();
    
     return (
          <Container>
+           <PageTitle title="Login"></PageTitle>
            
             <Wrapper>
                 <Form onSubmit={handleSubmit}> 

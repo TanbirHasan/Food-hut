@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import {Card,Button} from 'react-bootstrap'
 
 import useFoods from '../Hooks/useFoods';
+import PageTitle from '../Components/PageTitle';
 
 
 const Container = styled.div`
@@ -24,6 +25,7 @@ const Foodetails = ({food,handleAddtoCart}) => {
     const {id,img,name,price,title} = food;
     return (
         <Container>
+            <PageTitle title="Fooddetails"></PageTitle>
         
           
             <Wrapper>
